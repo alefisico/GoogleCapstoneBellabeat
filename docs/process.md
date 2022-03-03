@@ -27,6 +27,11 @@ Additionally, some of the csv files contain around millon rows, using Bigquery f
   * The source explains that the data corresponds to thirty individuals, while in the csv files there are thirty three `Id`s.
   * Information in `dailyCalories_merged.csv`, `dailyIntensities_merged.csv` and `dailySteps_merged.csv` is included in `dailyActivity_merged.csv`.
   * Using the `dailyActivity` I noticed that some there is only 4 days information for `Id = 4057192912`. I will remove that individual.
+  * A deeper test of the data shows that not all the participants gave their information the 30 days of the month. If I analyze everything as it is, the results will be biased. I see two options:
+    1. Remove all the participants info if they have not provide info more than 20 days (20 is based on the data).
+    2. Use 1. and for the remind information, use the number of day where all the information is given.
+
+  I think the best option is 2. and therefore I will only analyze data from `2016-04-12` to `2016-05-07`, and remove the id numbers `4057192912`, `3372868164`, `8253242879`, `2347167796`. These dates corresponds to the minimum number of dates where all the participants have all the information with at least 20 days of information.
   * I checked for `nan` values in the tables. It seems that only `weightLogInfo_merged.csv` contains 65 rows with nan value. In that table, there are 67 rows in total. Therfore, I cannot use that feature for analysis.
   * I checked for duplicates. Tables `minuteSleep_merged.csv` and `sleepDay` contain duplicates.  
   * MET means metabolic equivalent task.

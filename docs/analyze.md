@@ -16,4 +16,13 @@
  * __Deliverable__
   * A summary of your analysis
 
-  
+
+## Fitabase
+
+After the cleaning process, I started analyzing the data. The data analyzed is limited and not a good representation of our target customers. However, we can try to identfy overall trends that can be extrapolate to our case.
+I started with the daily activity, and this are my findings:
+  * There is a clear correlation between `TotalSteps` and the different distances (`TotalDistance`, `TrackerDistance`, `LoggedActivitiesDistance`, `VeryActiveDistance`, `ModeratelyActiveDistance`, `LightActiveDistance`) which is not surprising.
+  * There is no clear correlation between `TotalSteps` or `TotalDistance` and `Calories`.
+  * Then, I looked at the quantities based on the day of the week, this is what I found:
+    * It is not statistically significant because of the dataset, but there is a trend on `TotalSteps` and `TotalDistance` to be lower on Sundays and Mondays. After further analysis, it looks like it is just because the data has 3 Sundays and Mondays, and 4 of the other days. After weigthing the quantities properly, the trend dissapear.
+    * After normalizing all the quantities to the proper day, there is no clear trend in any quantity based on the day of the week. Perhaps the only noticiable, but not statistically significant, difference is in the `SedentaryActiveDistance`, where it seems that Monday and Thrusdays have higher values. 
