@@ -6,5 +6,5 @@ This repository contains my Capstone Project part of the Google Data Analytics P
 The project is described [here](docs/intro.md).
 There are seven steps for a good data analysis according to the Google Certification:
  1. Ask: [a journal](docs/ask.md)
- 2. Prepare:  
+ 2. Prepare: [a journal](docs/prepare.md) 
 The code is here:
