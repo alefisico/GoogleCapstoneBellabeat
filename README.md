@@ -9,4 +9,5 @@ There are seven steps for a good data analysis according to the Google Certifica
  2. Prepare: [a journal](docs/prepare.md)
  3. Process: [a journal](docs/process.md)
  4. Analyze: [a journal](docs/analyze.md)
-The code is here:
+
+The code is here: __In Progress__

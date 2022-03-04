@@ -34,6 +34,10 @@ Additionally, some of the csv files contain around millon rows, using Bigquery f
   I think the best option is 2. and therefore I will only analyze data from `2016-04-12` to `2016-05-07`, and remove the id numbers `4057192912`, `3372868164`, `8253242879`, `2347167796`. These dates corresponds to the minimum number of dates where all the participants have all the information with at least 20 days of information.
   * I checked for `nan` values in the tables. It seems that only `weightLogInfo_merged.csv` contains 65 rows with nan value. In that table, there are 67 rows in total. Therfore, I cannot use that feature for analysis.
   * I checked for duplicates. Tables `minuteSleep_merged.csv` and `sleepDay` contain duplicates.  
+  * There are only 24 participants with sleep records in `sleepDay`.
+  * Nine participants have records for less than 10 days in `sleepDay`. If I followed the same procedure as the daily activity, I ended up with 12 participants records.
+  * Due to the lack of information, I will remove the participants with less than 10 days of sleep records and for the rest I will weight the results to try to remove any bias in the results. The `Id` of those participants is `2320127002`, `7007744171`, `1844505072`, `6775888955`, `8053475328`, `1644430081`, `1927972279`, `4558609924`, `4020332650`.
+  * There are only 8 participants with `weightLogInfo` data. Out of the 8 only 2 have more than 5 days of information. Therefore cannot make any significant results from this dataset.
   * MET means metabolic equivalent task.
 
 
