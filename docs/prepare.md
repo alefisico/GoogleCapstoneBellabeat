@@ -63,7 +63,11 @@ The Fitabase dataset contains the following files:
 ## Other data sources
 
 I identified other cited and reliable open datasets that might be helpful:  
-  * [A dataset](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZS2Z2J) for 46 participants using apple watch and fitbit charge [2]. I will call this dataset __AppleFitbitData__.
+  * [A dataset](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZS2Z2J) for 46 participants using apple watch and fitbit charge [2]. I will call this dataset __AppleFitbitData__. This dataset contains the following files:
+    * `aw_fb_data.csv`
+    * `data_for_weka_aw.csv`
+    * `data_for_weka_fb.csv`
+
   * [A dataset](https://figshare.com/articles/dataset/Dataset_Fitbits_field-tests_and_grades_The_effects_of_a_healthy_and_physically_active_lifestyle_on_the_academic_performance_of_first_year_college_students_/7218497) of first year college students using fitbit to study the effects in academic performance in Fall 2017 [3]. I will call this dataset __FitbitsAndGradesData__. This dataset can be helpful because contains data split into gender.
 
 

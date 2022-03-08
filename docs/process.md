@@ -47,6 +47,14 @@ Additionally, some of the csv files contain around million rows, using Bigquery 
   * I will not analyze the minute information since I don't see how that can help the marketing department in selling our products. However, there is the `minuteSleep` dataset with information about sleep patterns in the participants.
     * In principle I must remove the same individuals as in the `sleepDay` dataset. However here I want to see a different approach. More than focusing on individuals I want to focus on sleep record. Looking at the number of minutes each individual recorded I found 4 participants with very low.
 
+## AppleFitbitData
+
+I choose to analyze this dataset in R. I could do it in spreadsheets or python, but I want to use tools in R. This is what I found about this dataset:
+
+  * The `aw_fb_data` dataset is the merge of the two other datasets (`data_for_weka_aw`, `data_for_weka_fb`), and therefore I am able to use only that dataset.
+  * Using `skim_without_charts`, there are no missing values. There are no duplicates either.
+  * There are no surprising correlations between the variables in the dataset. Strong correlations between gender-height, gender-weight, height-weight, heart_rate-intensity_karvonen, heart_rate-norm_heart, distance-steps_times_distance, norm_heart-intensity_karvonen, entropy_heart-entropy_steps.
+  * Since I am planning to use this dataset to look into genre data, I focused on the correlation of variables and the genre. This dataset shows no correlation between the genre any other variable, except height and weight. 
 
 ## FitbitsAndGradesData
 
