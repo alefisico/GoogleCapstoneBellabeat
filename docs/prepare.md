@@ -68,6 +68,8 @@ I identified other cited and reliable open datasets that might be helpful:
     * `data_for_weka_aw.csv`
     * `data_for_weka_fb.csv`
 
+  I found the preprint related to the dataset [here](https://assets.researchsquare.com/files/rs-17022/v1/d5923374-d56c-4fe7-a036-949ecf41917e.pdf?c=1631831698). It is useful to understand the data. After looking at that paper, I understand that each row corresponds to one minute of recorded activity. Participants where asked to do 6 different tasks in a space of 65 minutes. In the files I can find 49 participants (23 men and 26 women), which is different from what the website's dataset indicated.
+
   * [A dataset](https://figshare.com/articles/dataset/Dataset_Fitbits_field-tests_and_grades_The_effects_of_a_healthy_and_physically_active_lifestyle_on_the_academic_performance_of_first_year_college_students_/7218497) of first year college students using fitbit to study the effects in academic performance in Fall 2017 [3]. I will call this dataset __FitbitsAndGradesData__. This dataset can be helpful because contains data split into gender.
 
 

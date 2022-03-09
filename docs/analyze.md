@@ -34,4 +34,17 @@ I started with the daily activity, and this are my findings:
     * The data is not very significant but overall it seems that most of the participants have more of their daily steps every day around 12:00 and 19:00.
     * The patterns are similar for weekdays and slightly different for weekends. Participants are more active at 13:00 on Saturdays, and less active than usual after 19:00 on Sundays.
     * Similar patterns from the daily steps is found in calories and intensity.
-  * I analyze the `minuteSleep` dataset. No major pattern found. 
+  * I analyze the `minuteSleep` dataset. No major pattern found.
+
+
+## AppleFitbitData
+
+After the cleaning and deciding to use only the Apple Watch dataset. This is what I found:
+ * There are 49 participants (26 women and 23 men).
+ * The majority of the participants have less than 35 years old. The average of weight-height for woman is 160cm-60kg, and men is 180cm-75kg.
+ * After this, I looked into the different activities logged in the dataset: Lying, Sitting, Self-paced walk, Running 3 METs, Running 5 METs, Running 7 METs. These activities were compared between women and men. This is what I found:
+  * Although there is small difference in the distributions of heart rate for Lying, Sitting and Self-paced walk, mayor differences start to appear for the Running activities. This is a nice result that needs further studies.
+  * There is a difference between male/female for the calories expended in the different activities.
+  * There is a clear difference in the resting heart rate between men/women in all the activities.
+  * The intensity is also different between male/female following the trend seen for heart rate.
+  * 

@@ -51,10 +51,15 @@ Additionally, some of the csv files contain around million rows, using Bigquery 
 
 I choose to analyze this dataset in R. I could do it in spreadsheets or python, but I want to use tools in R. This is what I found about this dataset:
 
-  * The `aw_fb_data` dataset is the merge of the two other datasets (`data_for_weka_aw`, `data_for_weka_fb`), and therefore I am able to use only that dataset.
+  * The `aw_fb_data` dataset is the merge of the two other datasets (`data_for_weka_aw`, `data_for_weka_fb`).
   * Using `skim_without_charts`, there are no missing values. There are no duplicates either.
-  * There are no surprising correlations between the variables in the dataset. Strong correlations between gender-height, gender-weight, height-weight, heart_rate-intensity_karvonen, heart_rate-norm_heart, distance-steps_times_distance, norm_heart-intensity_karvonen, entropy_heart-entropy_steps.
-  * Since I am planning to use this dataset to look into genre data, I focused on the correlation of variables and the genre. This dataset shows no correlation between the genre any other variable, except height and weight. 
+  * I started looking at some basic quantities in the overall dataset:
+    * There are no surprising correlations between the variables in the dataset. Strong correlations between gender-height, gender-weight, height-weight, heart_rate-intensity_karvonen, heart_rate-norm_heart, distance-steps_times_distance, norm_heart-intensity_karvonen, entropy_heart-entropy_steps.
+    * Since I am planning to use this dataset to look into genre data, I focused on the correlation of variables and the genre. This dataset shows no correlation between the genre any other variable, except height and weight.
+  * This dataset, in principle, was meant to compare accuracy in tracking data from fitbit vs apple watch. However, based on the number of rows, there is a discrepancy between the data recorded.
+    * Based on the number of minutes recorded by the devices per participants, if I want to use only the data where both devices recorded the same quantities, the dataset reduces almost by half. (14 women, 13 men)
+    * Based on the same metric, the records from the apple watch are more according to the dataset information (i.e all the participants have more than 64 min of activity recorded)
+
 
 ## FitbitsAndGradesData
 
