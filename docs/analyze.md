@@ -47,4 +47,29 @@ After the cleaning and deciding to use only the Apple Watch dataset. This is wha
   * There is a difference between male/female for the calories expended in the different activities.
   * There is a clear difference in the resting heart rate between men/women in all the activities.
   * The intensity is also different between male/female following the trend seen for heart rate.
-  * 
+  * I tried to go deeper into these discrepancies:
+    * Checking the correlation of variables per gender, there is no clear difference there.
+    * I investigate about the effect of age in those variables, I see that the differences could appear for participants in different age ranges.
+    * I concentrate in participants age 15-35, and the discrepancies are still there. However, by looking only at participants above 35 years old, these discrepancies are not significant.
+  * From this quick test, and acknowledging the limitations of the dataset, I think I can use this discrepancies for the final presentation.
+
+
+## FitbitsAndGradesData
+
+After the cleaning, this is what I found:
+ * There is no clear information about the dataset. For instance, the column `gender` is codified with 0 or 1.
+ * Looking at the average of the quantities, there is no statistically significant difference in any of the features between gender 0 and 1.
+ * Looking at the correlation between features, the data shows correlations:
+    * between the heart-rate at peak and cardio,
+    * at cardio and fat-burn,
+    * (a little) between steps and fatburn,
+    * (a little) negative between minutes active and steps,
+    * negative correlation between minutes and mode,
+    * gender and minutes active,
+    * GPA and steps (surprising)
+    * life score and minutes active.
+  Going deep into the women data only, the previous correlations holds, having an increased correlation between cardio and peak, and fat-burn and peak. The negative correlation between minutes, GPA and steps also significantly increased.
+  * Then, I compared life score vs GPA for steps, HR peak, HR cardio, HR fatburn. I am not taking into account the unhealthy and very healthy Life Scores due to the lack of data. I found:
+    * For healthy or average participants, the GPA increases with the number of steps. The trend is more significant in females.
+    * For male participants, there is a clear pattern for avg minutes in the peak zone compare to healthy and average life scores. This trend is not there for females.
+    * There is no really a trend for cardio and fat-burn zones with respect to GPA or life scores.

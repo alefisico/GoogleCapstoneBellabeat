@@ -68,5 +68,11 @@ Because this dataset is small (581 rows and 11 columns) I process this dataset u
   * In the new sheet, called `clean data`, I started filtering every column. I found:
     * Rows with the `Key` 446, 301, 448 contain less than 100 steps. Probably the individuals did not wear the device properly. I will remove those rows to avoid biasing the results.
     * There are many rows with very low or very high values of `Peak`, `Cardio` or `FatBurn`, but the rest of the information in the columns looks ok. I will keep them and look into it later in the analysis part.
+      * (While analyzing) these high values are biasing the results. I will remove: `Peak>100`, `Cardio>150`,
     * There are two rows (key == 532, 554) with `GPA` equals to 0. The rest of the information looks correct, but I will remove them to be safe.
     * After this, no duplicates were found.  
+  * After looking at the paper from where the dataset came from, it is clear that the `gender==1` is female and `gender==0` is male.
+  * Additionally, I create categorical variables for:
+    * `GPA`: I use the mean and stddev to create the grades "A" (`GPA>3.9`), "B" (`3.2<GPA<3.9`), "C" (`2.5<GPA<3.2`), "D" (`2.5<GPA`).
+    * `Life Score` (this one following the nomenclature of the paper): very healthy (<40), healthy (41–70), average (71–100), unhealthy (101–130), and very unhealthy (>131). Additionally however there are 36 (16) participants with unhealthy (very healthy) conditions compared to the vast majority on average and healthy. Therefore I will focused on those.
+    * `Mode`: run (1), walk (0) for the cardio activity.
