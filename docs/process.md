@@ -1,6 +1,6 @@
 # Step 3: Process
 
-## Guidelines from the assigment
+## Guidelines from the assignment
 
  * __Guiding questions__
   * What tools are you choosing and why?
@@ -33,7 +33,7 @@ Additionally, some of the csv files contain around million rows, using Bigquery 
       2. Use 1. and for the remind information, use the number of day where all the information is given.
 
     I think the best option is 2. and therefore I will only analyze data from `2016-04-12` to `2016-05-07`, and remove the id numbers `4057192912`, `3372868164`, `8253242879`, `2347167796`. These dates corresponds to the minimum number of dates where all the participants have all the information with at least 20 days of information.
-    * I checked for `nan` values in the tables. It seems that only `weightLogInfo_merged.csv` contains 65 rows with nan value. In that table, there are 67 rows in total. Therfore, I cannot use that feature for analysis.
+    * I checked for `nan` values in the tables. It seems that only `weightLogInfo_merged.csv` contains 65 rows with nan value. In that table, there are 67 rows in total. Therefore, I cannot use that feature for analysis.
     * I checked for duplicates. Tables `minuteSleep_merged.csv` and `sleepDay` contain duplicates.  
     * There are only 24 participants with sleep records in `sleepDay`.
     * Nine participants have records for less than 10 days in `sleepDay`. If I followed the same procedure as the daily activity, I ended up with 12 participants records.

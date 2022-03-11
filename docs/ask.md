@@ -10,7 +10,7 @@ Putting things into context
 Managing team and stakeholder expectations
 Problem-solving and conflict-resolution
 -->
-## Guidelines from the assigment
+## Guidelines from the assignment
 
 
  * __Guiding questions__
@@ -26,7 +26,7 @@ Problem-solving and conflict-resolution
 
 Bellabeat is an established company focused in health smart products for women. The problem that I am trying to solve is what are the main trends in smart device usage, find in Bellabeat's competitors data, that can be applied to Bellabeat customers to influence their marketing strategy.
 
-### How can my insights drive business desicions?
+### How can my insights drive business decisions?
 
 If some trends are found in the data from Bellabeat's competitors, we can implement better marketing strategies to target new customers
 

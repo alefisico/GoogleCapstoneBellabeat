@@ -10,7 +10,7 @@ Connecting with the data community (optional)
 ROCC stands for Reliability, Originality, Comprehensiveness, Current, Cited.
 -->
 
-## Guidelines from the assigment
+## Guidelines from the assignment
 
  * __Guiding questions__
   * Where is your data stored?
