@@ -12,7 +12,6 @@ Problem-solving and conflict-resolution
 -->
 ## Guidelines from the assignment
 
-
  * __Guiding questions__
   * What is the problem you are trying to solve?
   * How can your insights drive business decisions?

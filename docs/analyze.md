@@ -57,10 +57,9 @@ After the cleaning and deciding to use only the Apple Watch dataset. This is wha
 ## FitbitsAndGradesData
 
 After the cleaning, this is what I found:
- * There is no clear information about the dataset. For instance, the column `gender` is codified with 0 or 1.
- * Looking at the average of the quantities, there is no statistically significant difference in any of the features between gender 0 and 1.
+ * Looking at the average of the quantities, there is no statistically significant difference in any of the features between genders.
  * Looking at the correlation between features, the data shows correlations:
-    * between the heart-rate at peak and cardio,
+    * between the heart-rate at minutes at peak and cardio,
     * at cardio and fat-burn,
     * (a little) between steps and fatburn,
     * (a little) negative between minutes active and steps,
