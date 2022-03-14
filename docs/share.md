@@ -56,4 +56,8 @@ Bellabeat is an established company focused in health smart products for women. 
  * There are no major differences in tracker activity per time of the day, however two distinguished times when customers are more active are: Wed 17:00 and Saturday 13:00.
  * Customers on average spend more time awake on Sunday than any other day.
  * Major differences on calories burn and heart rate are found using apple watch data between women/men. This can be target by the marketing department to emphasize this differences when targeting women products.
- * There is a mild evidence that minutes being active can improve intellectual activities, this relation is stronger for female consumers. 
+ * There is a mild evidence that minutes being active can improve intellectual activities, this relation is stronger for female consumers.
+
+## DataViz and key findings
+
+ * I started with the main consumer findings in this [Tableau viz](https://public.tableau.com/views/GoogleCapstoneProject-Bellabeat/Story1?:language=en-US&:display_count=n&:origin=viz_share_link)
