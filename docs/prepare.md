@@ -29,7 +29,7 @@ ROCC stands for Reliability, Originality, Comprehensiveness, Current, Cited.
   * A description of all data sources used
 
 
-## Fitbit Fitness Tracker data
+## Fitbit Fitness Tracker data (Fitabase)
 
 This dataset is [located in Kaggle](https://www.kaggle.com/arashnic/fitbit). It seems like a well documented and widely used dataset posted [here](https://zenodo.org/record/53894#.YMoUpnVKiP9) [1]. Even though the dataset is in Kaggle, the metadata is not great. Looking more into the discussion section, I found a better description of the dataset and variables in [this pdf](https://www.fitabase.com/media/1930/fitabasedatadictionary102320.pdf) (thanks to Laimis).
 
@@ -39,12 +39,12 @@ Without looking into details of the dataset, I see already some possible sources
 
 For Bellabeat, who is interested in women's health, this dataset can be limited and biased. Therefore the findings of this project should clearly specify this.
 
-### Fitabase dataset
+<!-- ### Fitabase dataset -->
 
 The original dataset is located in the [Zenodo repository](https://zenodo.org/record/53894#.YMoUpnVKiP9).
-Because I want to exploit all the tools that I know, I want to have various copies of the dataset.
-I will upload the csv files into a google spreadsheet, a Bigquery dataset and I will use the Kaggle dataset for the R and Python studies.
-Additionally, I will store a copy of the csv files in my local computer as a backup.
+<!-- Because I want to exploit all the tools that I know, I want to have various copies of the dataset. -->
+<!-- I will upload the csv files into a google spreadsheet, a Bigquery dataset and I will use the Kaggle dataset for the R and Python studies.
+Additionally, I will store a copy of the csv files in my local computer as a backup. -->
 
 The Fitabase dataset contains the following files:
  * `dailyActivity_merged.csv`
