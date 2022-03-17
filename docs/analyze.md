@@ -26,6 +26,17 @@ I started with the daily activity, and this are my findings:
   * Then, I looked at the quantities based on the day of the week, this is what I found:
     * It is not statistically significant because of the dataset, but there is a trend on `TotalSteps` and `TotalDistance` to be lower on Sundays and Mondays. After further analysis, it looks like it is just because the data has 3 Sundays and Mondays, and 4 of the other days. After weighting the quantities properly, the trend disappear.
     * After normalizing all the quantities to the proper day, there is no clear trend in any quantity based on the day of the week. Perhaps the only noticeable, but not statistically significant, difference is in the `SedentaryActiveDistance`, where it seems that Monday and Thursdays have higher values.
+  * I try to categorize the information of the individuals based on their "active level". I use a definition of active level based on [this website](https://www.medicinenet.com/how_many_steps_a_day_is_considered_active/article.htm). Where individuals are categorize in 5 different levels based on the number of daily steps:
+     * `TotalSteps < 5000` is  'Sedentary'
+     * `TotalSteps) < 7500` is 'Low Active'
+     * `TotalSteps) < 10000` is 'Somewhat Active'
+     * `TotalSteps) < 12500` is 'Active'
+     * `TotalSteps) > 12500`, is 'Highly Active'
+    The information is limited but there are some interesting observations that we can point out to the stakeholders:
+      * The number of minutes of activity does not linearly scale to the active level.
+      * Same for distance.
+      * Very active people makes the most steps on Saturdays, while sedentary people make the least on Sundays.
+      * Although calories and steps are in general correlated, active (and highly active) people have many days with low calorie count.  
   * Then, I looked at the `sleepDay` dataset. There are only 15 participants with data. No clear trend in the data is found.
   * Then I looked at correlations between the daily activity and sleep. I merged `dailyActivity` and `sleepDay` tables. After removing `Nan` values I ended up with similar number of participants as the `sleepDay` (as excepted). I found:
     * There is a negative correlation between `TotalMinutesAsleep` and `SendentaryMinutes`.

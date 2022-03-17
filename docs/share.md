@@ -28,6 +28,8 @@ Bellabeat is an established company focused in health smart products for women. 
   * There are some days where on average people are more active and/or burn more calories.
   * There is a negative correlation between `TotalMinutesAsleep` and `SendentaryMinutes`.
   * The data is not very significant but overall it seems that most of the participants have more of their daily steps every day around 12:00 and 19:00.
+  * Very active people makes the most steps on Saturdays, while sedentary people make the least on Sundays.
+  * Although calories and steps are in general correlated, active (and highly active) people have many days with low calorie count.
  * From the apple dataset:
   * There are mayor differences in running activities between male/females.
   * There is a difference between male/female for the calories expended in the different activities.
