@@ -14,6 +14,7 @@
  * __Deliverable__
    * Your top high-level insights based on your analysis
 
+
 ### Results and recommendations
 
 The outcomes of this study are:
