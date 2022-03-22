@@ -1,15 +1,7 @@
 # Step 1: Ask
 
-_Personal notes: This is the step were I have to think about SMART questions and clearly identify the stakeholders and their needs._
+_Personal notes: This is the step where I have to think about SMART questions and identify the stakeholders and their needs._
 
-<!--
-Asking SMART and effective questions
-Structuring how you think
-Summarizing data
-Putting things into context
-Managing team and stakeholder expectations
-Problem-solving and conflict-resolution
--->
 ## Guidelines from the assignment
 
  * __Guiding questions__
@@ -23,16 +15,16 @@ Problem-solving and conflict-resolution
 
 ### What is the problem I am trying to solve?
 
-Bellabeat is an established company focused in health smart products for women. The problem that I am trying to solve is what are the main trends in smart device usage, find in Bellabeat's competitors data, that can be applied to Bellabeat customers to influence their marketing strategy.
+Bellabeat is an established company focused on health smart products for women. The problem that I am trying to solve is the main trends in smart device usage found in Bellabeat's competitors' data that can be applied to Bellabeat customers to influence their marketing strategy.
 
 ### How can my insights drive business decisions?
 
-If some trends are found in the data from Bellabeat's competitors, we can implement better marketing strategies to target new customers
+If some trends are found in the data from Bellabeat's competitors, we can implement better marketing strategies to target new customers.
 
 ### Consider key stakeholders
 
-The primary stakeholders are Urska and Sando from the managing team, as well as the Bellabeat marketing team. My presentation and findings must be directed to them.
+The primary stakeholders are Urska and Sando from the managing team and the Bellabeat marketing team. My presentation and findings must be directed to them.
 
 ### Identify the business task
 
-The task is to find possible trends in the behavior or usage of smart devices of thirty Fitbit users, using the data collected in December 2016, that can be replicated and overcome with the Bellabeat products in order to improve marketing strategies
+The task is to find possible trends in the behavior or usage of smart devices of thirty Fitbit users, using the data collected in December 2016, that can be replicated and overcome with the Bellabeat products to improve marketing strategies.

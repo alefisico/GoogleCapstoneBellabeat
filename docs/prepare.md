@@ -17,12 +17,12 @@ ROCC stands for Reliability, Originality, Comprehensiveness, Current, Cited.
   * How is the data organized? Is it in long or wide format?
   * Are there issues with bias or credibility in this data? Does your data ROCCC?
   * How are you addressing licensing, privacy, security, and accessibility?
-  * How did you verify the data’s integrity?
+  * How did you verify the data's integrity?
   * How does it help you answer your question?
   * Are there any problems with the data?
  * __Key tasks__
   1. Download data and store it appropriately.
-  2. Identify how it’s organized.
+  2. Identify how it's organized.
   3. Sort and filter the data.
   4. Determine the credibility of the data.
  * __Deliverable__
@@ -31,20 +31,15 @@ ROCC stands for Reliability, Originality, Comprehensiveness, Current, Cited.
 
 ## Fitbit Fitness Tracker data (Fitabase)
 
-This dataset is [located in Kaggle](https://www.kaggle.com/arashnic/fitbit). It seems like a well documented and widely used dataset posted [here](https://zenodo.org/record/53894#.YMoUpnVKiP9) [1]. Even though the dataset is in Kaggle, the metadata is not great. Looking more into the discussion section, I found a better description of the dataset and variables in [this pdf](https://www.fitabase.com/media/1930/fitabasedatadictionary102320.pdf) (thanks to Laimis).
+This dataset is [located in Kaggle](https://www.kaggle.com/arashnic/fitbit), seems like a well-documented and widely used dataset posted [here](https://zenodo.org/record/53894#.YMoUpnVKiP9) [1]. Even though the dataset is in Kaggle, the metadata is not great. Looking more into the discussion section, I found a better description of the dataset and variables in [this pdf](https://www.fitabase.com/media/1930/fitabasedatadictionary102320.pdf) (thanks to Laimis).
 
-This dataset is organized in many different csv files, split according to the activity register in the gadget.
+This dataset is organized in many different CSV files, split according to the activity register in the gadget.
 
-Without looking into details of the dataset, I see already some possible sources of bias. First, the dataset is not current and therefore the findings of this project can be outdated. Although it is original and cited, it is indicated that the data was taken from respondent of a survey without specifying genre or location. The data can be comprehensive for the 30 individuals surveyed but cannot extrapolate to an entire population.
+Without looking into the details of the dataset, I already see some possible sources of bias. First, the dataset is not current, and therefore the findings of this project can be outdated. Although it is original and cited, it is indicated that the data was taken from survey respondents without specifying genre or location. The data can be comprehensive for the 30 individuals surveyed but cannot be extrapolated to an entire population.
 
-For Bellabeat, who is interested in women's health, this dataset can be limited and biased. Therefore the findings of this project should clearly specify this.
-
-<!-- ### Fitabase dataset -->
+This dataset can be limited and biased for Bellabeat, who is interested in women's health. Therefore the findings of this project should specify this.
 
 The original dataset is located in the [Zenodo repository](https://zenodo.org/record/53894#.YMoUpnVKiP9).
-<!-- Because I want to exploit all the tools that I know, I want to have various copies of the dataset. -->
-<!-- I will upload the csv files into a google spreadsheet, a Bigquery dataset and I will use the Kaggle dataset for the R and Python studies.
-Additionally, I will store a copy of the csv files in my local computer as a backup. -->
 
 The Fitabase dataset contains the following files:
  * `dailyActivity_merged.csv`
@@ -63,14 +58,14 @@ The Fitabase dataset contains the following files:
 ## Other data sources
 
 I identified other cited and reliable open datasets that might be helpful:  
-  * [A dataset](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZS2Z2J) for 46 participants using apple watch and fitbit charge [2]. I will call this dataset __AppleFitbitData__. This dataset contains the following files:
+  * [A dataset](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZS2Z2J) for 46 participants using apple watch and Fitbit charge [2], I will call this dataset __AppleFitbitData__. This dataset contains the following files:
     * `aw_fb_data.csv`
     * `data_for_weka_aw.csv`
     * `data_for_weka_fb.csv`
 
-  I found the preprint related to the dataset [here](https://assets.researchsquare.com/files/rs-17022/v1/d5923374-d56c-4fe7-a036-949ecf41917e.pdf?c=1631831698). It is useful to understand the data. After looking at that paper, I understand that each row corresponds to one minute of recorded activity. Participants where asked to do 6 different tasks in a space of 65 minutes. In the files I can find 49 participants (23 men and 26 women), which is different from what the website's dataset indicated.
+  I found the preprint related to the dataset [here](https://assets.researchsquare.com/files/rs-17022/v1/d5923374-d56c-4fe7-a036-949ecf41917e.pdf?c=1631831698). It is helpful to understand the data. After looking at that paper, I know that each row corresponds to one minute of recorded activity. Participants were asked to do six different tasks in 65 minutes. In the files, I can find 49 participants (23 men and 26 women), which is different from what the website's dataset indicated.
 
-  * [A dataset](https://figshare.com/articles/dataset/Dataset_Fitbits_field-tests_and_grades_The_effects_of_a_healthy_and_physically_active_lifestyle_on_the_academic_performance_of_first_year_college_students_/7218497) of first year college students using fitbit to study the effects in academic performance in Fall 2017 [3]. I will call this dataset __FitbitsAndGradesData__. This dataset can be helpful because contains data split into gender. I found the paper from this dataset, the link is [here](https://www.tandfonline.com/doi/abs/10.1080/1612197X.2019.1623062?journalCode=rijs20).
+  * [A dataset](https://figshare.com/articles/dataset/Dataset_Fitbits_field-tests_and_grades_The_effects_of_a_healthy_and_physically_active_lifestyle_on_the_academic_performance_of_first_year_college_students_/7218497) of first-year college students using Fitbit to study the effects in academic performance in Fall 2017 [3]. I will call this dataset __FitbitsAndGradesData__. This dataset can be helpful because it contains data split into gender; I found the paper from this dataset, and the link is [here](https://www.tandfonline.com/doi/abs/10.1080/1612197X.2019.1623062?journalCode=rijs20).
 
 
 ## References
